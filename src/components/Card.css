@@ -1,0 +1,161 @@
+.Cards {
+  height: 290px ;
+  width: 366px ;
+  border: 2px solid rgb(121, 40, 226);
+  border-radius: 25px;
+  position: relative;
+  box-shadow: -1px 4px 20px -6px rgba(25, 45, 233, 0.6);
+  margin: 20px 5px 20px 40px;
+  padding: 5px ;
+  display: flex;
+  background-color: white;
+  float: left;
+}
+.Cards:hover{
+  border: 2px solid rgb(255, 136, 0) ;
+  background-color: antiquewhite
+}
+.Id {
+  margin: 8px 0px 0 8px ;
+  color:rgb(19, 16, 233) ;
+  font-size: small;
+  font: bold;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding :2px 6px;
+  background-color: rgb(255, 196, 0);
+  font-weight: 900;
+}
+
+.courseName {
+  color:red;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.courseLink {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.provider {
+  color: black;
+  margin: 10px 0px 10px 10px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.university {
+  color: black;
+  margin-left: 8px;
+  position: absolute;
+  padding-top: 10px;
+  justify-content: space-between;
+  font-size: small;
+}
+span{
+  color: rgb(214, 16, 16);
+  font-style: italic;
+  font-weight: 700;
+}
+.childParent {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  position:absolute;
+  bottom:10px;
+  left: 10px;
+  padding-bottom: 8px;
+  font-size: smaller;
+}
+
+.id {
+  display: flex;
+}
+
+.date {
+  margin:10px 0 0 200px; 
+  color:rgb(28, 31, 187);
+  font-size: 13px;
+  box-sizing: border-box;
+  
+}
+
+.childParentTitle {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  position:absolute;
+  font-size: smaller;
+  
+  bottom:40px;
+  left: 10px;
+  color: black;
+  padding-bottom: 2px;
+}
+.childParentTitle>span{
+  padding-bottom: 3px;
+}
+
+
+.headcard{
+font-weight: 900;
+}
+
+.loader{
+    margin-top: 50px;
+}
+
+
+.dots {
+    width: 3.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dots div {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    background-color: #fc2f70;
+    animation: fade 0.8s ease-in-out alternate infinite;
+  }
+  
+  .dots div:nth-of-type(1) {
+    animation-delay: -0.4s;
+  }
+  
+  .dots div:nth-of-type(2) {
+    animation-delay: -0.2s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+.graph{
+  width:50%;
+  padding: 20px 40px;
+  background-color: white;
+  border: 3px solid blue;
+  flex: auto;
+  margin: auto;
+  border-radius: 20px;
+}
+.drop {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
